@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xl_margin_layout">50dp</dimen>
+    <dimen name="mid_margin_layout">30dp</dimen>
+    <dimen name="s_margin_layout">20dp</dimen>
+
+    <dimen name="mid_padding_text">8dp</dimen>
+    <dimen name="xl_padding_text">16dp</dimen>
+
+    <dimen name="icon_size">20dp</dimen>
+
+
+
+</resources>
