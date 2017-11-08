@@ -94,6 +94,8 @@
                 android:paddingStart="16dp"
                 android:text="@string/adress"
                 android:textColor="#f5f5f5"
+                android:autoLink="web"
+                android:textColorLink="#f5f5f5"
                 />
 
 
@@ -124,7 +126,8 @@
                 android:paddingStart="16dp"
                 android:text="@string/phone"
                 android:textColor="#f5f5f5"
-                android:autoLink=""/>
+                android:autoLink="web|phone"
+                android:textColorLink="#f5f5f5"/>
 
 
         </LinearLayout>
@@ -153,7 +156,7 @@
                 android:paddingStart="16dp"
                 android:text="@string/url"
                 android:textColor="#f5f5f5"
-                android:autoLink=""/>
+                android:autoLink="web"/>
 
 
         </LinearLayout>
