@@ -4,6 +4,6 @@
     <string name="adress">2465 Latham St\nMountain View,\nCA 94043</string>
     <string name="phone">650 - 555 - 5555</string>
     <string name="url">udacity.com</string>
-    <string name="button_txt">Submit your application</string>
+    <string name="button_txt">Recommend us to your friends</string>
 
 </resources>
