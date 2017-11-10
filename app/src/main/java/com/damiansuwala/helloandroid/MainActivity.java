@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("Text/plain");
-                String shareBody = "Your Body here";
-                String shareSub = "Your Subject";
+                String shareBody = "http://udacity.com/";
+                String shareSub = "Check it: udacity.com";
                 myIntent.putExtra(Intent.EXTRA_TEXT,shareBody);
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
                 startActivity(Intent.createChooser(myIntent,"Share using"));
